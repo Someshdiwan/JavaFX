@@ -1,0 +1,74 @@
+JavaFX provides a variety of layout panes—specialized containers that help you arrange and manage UI elements in
+your application.
+
+Each layout pane offers a different strategy for positioning and sizing its child nodes.
+
+Here’s an overview of the most common types and their definitions:
+
+1. Pane
+Definition:
+The simplest container, which does no automatic layout of its children.
+
+Usage:
+Use when you need absolute positioning of elements. You have to manually set the position of each child node.
+
+2. FlowPane
+Definition:
+Arranges its children in a flow that wraps at the container's boundary.
+
+Usage:
+Ideal for creating layouts where elements are laid out sequentially and should wrap to the next line when space is limited.
+
+3. HBox and VBox
+HBox (Horizontal Box):
+
+Definition: Arranges nodes in a single horizontal row.
+
+Usage: Great for side-by-side controls like buttons, labels, or other UI components.
+
+VBox (Vertical Box):
+
+Definition: Arranges nodes in a single vertical column.
+
+Usage: Useful for stacking elements vertically, such as form fields or menus.
+
+4. BorderPane
+Definition:
+Divides the scene into five regions: top, bottom, left, right, and center.
+
+Usage:
+Ideal for applications with a standard layout (e.g., header, footer, sidebar, and central content).
+Each region can hold a node, and the center region typically expands to fill available space.
+
+5. GridPane
+Definition:
+Lays out its children within a flexible grid of rows and columns.
+
+Usage:
+Perfect for forms or any layout where you want precise control over rows and columns.
+You can specify column/row spans for more complex arrangements.
+
+6. StackPane
+Definition:
+Places its children on top of each other in a stack, with the first added node at the bottom.
+
+Usage:
+Useful for overlaying elements (e.g., putting text on an image) or creating scenes where elements share the same space.
+
+7. AnchorPane
+Definition:
+Allows you to anchor child nodes to one or more of its edges.
+
+Usage:
+Ideal when you want to maintain a fixed distance between a node and the pane’s borders, even as the window is resized.
+
+8. TilePane
+Definition:
+Arranges nodes in uniformly sized tiles, either horizontally or vertically.
+
+Usage:
+Often used for galleries or dashboards where items need to be displayed in a grid-like format with equal spacing.
+
+Each layout pane is designed with specific use cases in mind. By choosing the appropriate layout pane—or even
+combining them—you can create sophisticated and responsive UIs that adapt well to different screen sizes and user
+interactions.
